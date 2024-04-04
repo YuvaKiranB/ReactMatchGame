@@ -1,0 +1,74 @@
+.gameOverCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  width: 350px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  background-size: cover;
+  padding-top: 150px;
+}
+
+.image5 {
+  height: 180px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.p3 {
+  font-family: roboto;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.p4 {
+  font-family: roboto;
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.button3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #cf60c8;
+  border-width: 0px;
+  padding: 2px;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.image6 {
+  height: 25px;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .gameOverCard {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    width: 500px;
+    padding-top: 200px;
+  }
+
+  .image5 {
+    height: 200px;
+  }
+}
